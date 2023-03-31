@@ -1,6 +1,6 @@
-.gesifan-box1 {
+/* .gesifan-box1 {
     border: 1px solid red;
-}
+} */
 
 .gesifan-box1 >div:nth-child(2) {
     margin-right: 50px;
@@ -18,11 +18,10 @@
 }
 
 
-
 .gesifan-box3 {
     width: 620px;
     height: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 
@@ -31,9 +30,22 @@
   width: 300px;
   height: 150px;
   border: 3px solid #ebf6fc;
-  border-radius: 30px;
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 .gesifan-box5:hover {
     border-color: #80baff;
+}
+
+.gesifan-span{
+    width: 120px;
+    height: 30px;    
+    border-radius: 30px;
+    color: #fff;
+    background-color: #80baff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }

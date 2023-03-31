@@ -1,6 +1,8 @@
 import React from 'react'
 import './Gesifan.css'
 import human from '../src/notice-human.png'
+import rrrr from '../src/enlargement-icon.png'
+
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -25,10 +27,10 @@ const Gesifan = () => {
                </div> 
                <div style={{marginTop:'30px'}}>
                  <span>문의합니다</span>
-                 <span>해주세요 </span>
+                 <span>&nbsp;&nbsp;해주세요 &nbsp; </span>
                </div>
-               <div style={{marginTop:'80px' , border : '1px solid red' , textAlign : 'end'}}> 
-                 <button>게시글 작성하러 가기</button>
+               <div style={{marginTop:'80px' , textAlign : 'end'}}> 
+                 <button style={{backgroundColor : '#fff', cursor : 'pointer'}}>게시글 작성하러 가기</button>
                </div> 
             </div>
         </div>      
@@ -39,14 +41,14 @@ const Gesifan = () => {
         <div style={{display : 'flex' , marginTop : '20px'}}>
             <div className='gesifan-box5'>
                 <div style={{position : 'relative',marginLeft : '20px', marginTop : '20px'}}>
-                    <span>조회수 높은 글</span><span><img style={{width : '20px' , position : 'absolute' ,right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
+                    <p className='gesifan-span'>조회수 높은 글</p><span><img style={{width : '20px' , position : 'absolute' ,top : '7px',right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
                     <p>칭찬합니다</p>
                     <p>제목 : DW503 이예진 선생님 최고!</p>
                 </div>
             </div>
             <div style={{marginLeft : '10px'}} className='gesifan-box5'>
             <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
-                    <span>조회수 높은 글</span><span><img style={{width : '20px' , position : 'absolute',right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
+                    <p className='gesifan-span'>조회수 높은 글</p><span><img style={{width : '20px' , position : 'absolute',top : '7px',right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
                     <p>칭찬합니다</p>
                     <p>제목 : DW503 이예진 선생님 최고!</p>
                 </div>
@@ -55,20 +57,21 @@ const Gesifan = () => {
         <div style={{display : 'flex' , marginTop : '20px'}}>
             <div className='gesifan-box5'>
             <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
-                    <span>조회수 높은 글</span><span><img style={{width : '20px' , position : 'absolute' ,right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
+                    <p className='gesifan-span'>조회수 높은 글</p><span><img style={{width : '20px' , position : 'absolute' ,top : '7px',right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
                     <p>칭찬합니다</p>
                     <p>제목 : DW503 이예진 선생님 최고!</p>
                 </div>
             </div>
             <div style={{marginLeft : '10px'}} className='gesifan-box5'>
             <div style={{position : 'relative',marginLeft : '20px' , marginTop : '20px'}}>
-                    <span>조회수 높은 글</span><span><img style={{width : '20px' , position : 'absolute' ,right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
+                    <p className='gesifan-span'>조회수 높은 글</p><span><img style={{width : '20px' , position : 'absolute' ,top : '7px' ,right : '10px' }} src='moresee-arrow.png' alt="arrow" /></span>
                     <p>칭찬합니다</p>
                     <p>제목 : DW503 이예진 선생님 최고!</p>
                 </div>
             </div>
         </div>
       </div>  
+     
 
     </div>
   )

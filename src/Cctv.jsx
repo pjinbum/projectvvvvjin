@@ -29,14 +29,14 @@ const Cctv = () => {
                 </div>      
                        
              </div>
-             <button style={{marginTop : '20px'}} onClick={()=>{
+             <button style={{marginTop : '20px' , backgroundColor : '#fff' , cursor : 'pointer'}} onClick={()=>{
                 
              }}>자세히 보기</button> 
            </div>
         </div>
         <div style={{width : '600px'}}>
            <div>
-            <p style={{textAlign : 'end'}}>지도 확대하기 <img style={{width : '14px'}} src="enlargement-icon.png" alt="big" /></p>
+            <p style={{textAlign : 'end' , cursor : 'pointer'}}>지도 확대하기 <img style={{width : '14px'}} src="enlargement-icon.png" alt="big" /></p>
             </div>  
            <Cctvmap></Cctvmap>
         </div>
